@@ -1,0 +1,1032 @@
+<html>
+	<head>
+
+		<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+
+		<script src="js/my_js.js"></script>
+		<script src="js/gallery.js"></script>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		
+		<link href="styles.css" rel="stylesheet">
+
+		<!-- Google fonts -->
+
+		<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Portfolio Ben Shewring</title>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body>
+
+		<!-- Language selection -->
+
+		<div id="lang-nav">
+			<div class="EN"> 					
+ 				<a id="EN" href="#">EN</a>
+	 		</div>
+	 		<div class="ES">
+ 				<a id="ES" href="#">ES</a>
+	 		</div>
+		</div>
+
+
+		<!-- English template -->
+
+		<div class="wrapper" lang="en" id="english">
+
+		 	<!-- left page wrapper -->
+
+			<div class="left-wrapper col-md-4 col-xs-12">
+
+				<!-- Photo, name and link popovers -->
+
+				<div class="intro-div">
+					<p class="Ben">Ben</p>
+					<p class="Shewring">Shewring</p>
+					<img class="front" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/front.png" alt="Ben Shewring" title="Ben Shewring"/>
+					<div id="envelope" class="contact col-md-6 col-md-offset-0 col-xs-3 col-xs-offset-1">
+						<div class="col-xs-6 col-md-3">
+							<a class="envelope" href="javascript://"><span class="glyphicon glyphicon-envelope"></span></a>
+
+							
+							<div hidden class="envelope-popover-container">
+							    <p><a href="mailto:b.shewring@gmail.com"><strong>b.shewring@gmail.com</strong></a></p>
+							</div>
+						</div>
+						<div id="linkedin" class="icons col-xs-6 col-md-3">
+							<a class="linkedin" href="javascript://"><img class="linkedin" src="images/linkedin.png" alt="Linkedin"/></a>
+
+							
+							<div hidden class="linkedin-popover-container">
+							    <p><a href="https://uk.linkedin.com/in/ben-shewring" target="_blank"><strong>LinkedIn account</strong></a></p>
+							</div>
+						</div>
+						<div id="git" class="icons col-xs-6 col-md-3">
+							<a class="git" href="javascript://"><img class="git" src="images/git.png" alt="Github"/></a>
+
+							
+							<div hidden class="git-popover-container">
+							    <p><a href="https://github.com/Ben-SS" target="_blank"><strong>Github account</strong></a></p>
+							</div>
+						</div>
+						<div id="twitter" class="icons col-xs-6 col-md-3">
+						<a class="twitter" href="javascript://"><img class="twitter" src="images/twitter.png" alt="Twitter"/></a>
+
+						
+						<div hidden class="twitter-popover-container">
+						    <p><a href="https://twitter.com/BShewring" target="_blank"><strong>Twitter account</strong></a></p>
+						</div>
+					</div>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- Right page wrapper -->
+
+			<div class="right-wrapper col-md-8 col-xs-12">
+
+				<!-- Navbar -->
+
+				<div id="me-nav" class="container">
+
+					<nav id="nav-right" class="navbar navbar-default">
+						<ul class="nav navbar-nav">
+				 			<li>
+				 				<a id="button-1" class="active" href="#">About me</a>
+				 			</li>
+				 		</ul>
+				 		<ul class="nav navbar-nav">
+							<li>  					
+				 				<a id="button-2" href="#">Places</a>
+				 			</li>
+				 		</ul>
+				 		<ul class="nav navbar-nav">
+				 			<li>
+				 				<a id="button-3" href="#">Examples</a>
+				 			</li>
+				 		</ul>
+				 		<ul class="nav navbar-nav">
+							<li>  					
+				 				<a id="button-4" href="#">My goals</a>
+				 			</li>
+				 		</ul>
+				 		<ul class="nav navbar-nav">
+				 			<li>
+				 				<a id="button-5" href="#">Download CV</a>
+				 			</li>
+				 		</ul>
+			 		</nav>
+
+			 	</div>
+				
+				<div class="content-div">
+					<div class="row toggle-row">
+
+						<!-- About me -->
+
+				 		<div id="toggle-1" class="toggle">
+							<div class="container content-container">
+								<div class="examples">About me</div>
+
+								<div class="allow-div">
+									<h1 class="about-title">Allow me to barely introduce myself...</h1>
+
+									<div class="about-me-div">
+										<p class="about-text container">Born and raised in the South West of the UK, I am a <strong>bilingual International Business graduate</strong>, living in Tenerife. Having never been afraid of new career challenges, I have a wide experience base, and am now eager to settle into the field of  <strong>Web Development </strong>. I work hard, play hard and pride myself on being a  <strong>great team player</strong>.<br><span class="cv-word-stress">Feel free to download my CV above</span></p>
+									</div>
+
+								</div>
+
+								<div class="about-me-middle">
+							
+									<div class="prof-container col-xs-12 col-md-6">
+										<div class="prof-header">
+											<p class="prof-title">Technical know how...</p>
+											<p class="title-text">The toolbox</p>
+										</div>
+										<div class="prof-skills">
+											<div class="cirlce-div1 type1">
+												<p class="circle-text1">Web<br>Design</p>
+												<div class="meteor-div">
+												<img class="meteor" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/meteor.png" alt="meteor" title="Meteor"/>
+												</div>
+												<div class="html5-div">
+													<img class="skills" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/html5.png" alt="html5" title="HTML5"/>
+												</div>
+												<div class="javascript-div">
+													<img class="javascript" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/javascript.png" alt="javascript" title="JavaScript"/>
+												</div>
+												<div class="jquery-div">
+													<img class="skills" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/jquery.png" alt="jquery" title="JQuery"/>
+												</div>
+												<div class="mongodb-div">
+													<img class="mongo" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/mongodb.png" alt="mongodb" title="MongoDB"/>
+												</div>
+												<div class="css-div">
+													<img class="skills" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/css.png" alt="css" title="CSS"/>
+												</div>
+											</div>
+											<div class="cirlce-div2 type2">
+												<p class="circle-text2">Graphic<br>/Media<br>Design</p>
+												<div class="photoshop-div">
+												<img class="javascript" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/photoshop.png" alt="photoshop" title="Abobe Photoshop"/>
+												</div>
+												<div class="illustrator-div">
+													<img class="javascript" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/illustrator.png" alt="illustrator" title="Abobe Illustrator"/>
+												</div>
+												<div class="effects-div">
+													<img class="javascript" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/effects.png" alt="effects" title="Abobe After Effects"/>
+												</div>
+												<div class="vegas-div">
+													<img class="javascript" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/vegas.png" alt="vegas" title="Sony Vegas Pro"/>
+												</div>
+											</div>											
+										</div>
+									</div>
+
+									<div class="pers-container col-xs-12 col-md-6">
+										<div class="pers-header">
+											<p class="prof-title">Other skills...</p>
+											<p class="title-text">What else i can do</p>
+										</div>
+										<div class="pers-skills">
+											<p><span class="pers-text-title"><strong>Teach:</strong></span><span class="pers-text">5+ years of IT and English teaching.</span></p>
+										</div>
+										<div class="pers-skills">
+											<p><span class="pers-text-title"><strong>Languages:</strong></span><span class="pers-text">I am a bilingual Spanish/English speaker.</span></p>
+										</div>
+										<div class="pers-skills">
+											<p><span class="pers-text-title"><strong>Innovate:</strong></span><span class="pers-text">I have experience as an Innovation Consultant.</span></p>
+										</div>
+										<div class="pers-skills">
+											<p><span class="pers-text-title"><strong>Create:</strong></span><span class="pers-text">Experience in media content development.</span></p>
+										</div>
+									</div>
+
+									<div class="pers-container col-xs-12 col-md-6">
+										<div class="pers-header">
+											<p class="prof-title">To sum me up...</p>
+											<p class="title-text">how i would describe myself</p>
+											<div class="friends">
+												<div class="pers-text-title-div">				
+													<p><span class="pers-text-title"><strong>To my friends...</strong></span></p>
+												</div>
+												<div class="pers-text-div">
+													<p class="pers-text"><strong>Trustworthy</strong>, <strong>Fun</strong> and at times</span> <strong>refreshingly spontaneous</strong>.</p>
+												</div>
+											</div>
+											<div class="colleagues">
+												<div class="pers-text-title-div">	
+													<p class="pers-text-title"><strong>To my colleagues...</strong></p>
+												</div>
+												<div class="pers-text-div">
+													<p class="pers-text"><strong>Adaptable</strong>, <strong>Committed</strong> and willing to give</span> <strong>new things</strong> a try.</span></p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Places -->
+
+				 		<div hidden id="toggle-2" class="toggle">	
+							<div class="container content-container">
+								<div class="examples">Places</div>
+
+								<div class="allow-div">					
+									<div class="about-me-div">
+										<p class="about-text container">The following companies and institutions have formed the stepping stones for my professional development to date.<br><span class="cv-word-stress">Feel free to download my CV above</span></p>
+									</div>
+								</div>
+
+								<div class="places-middle">
+
+									<div class="places-container">
+										<div class="prof-header">
+											<p class="prof-title">Employment...</p>
+											<p class="title-text">Who i have worked for</p>
+										</div>
+										<div class="places-row row">
+											<div class="col-xs-12 col-md-4">
+												<img class="places-img" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/nivaria.png" alt="Nivaria Innova SL" title="Nivaria Innova SL"/>
+												<p class="places-text">Online Marketing Placement</p>
+											</div>
+											<div class="col-xs-12 col-md-4">
+												<img class="places-img" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/mayco.png" alt="Mayco School Of English" title="Mayco School Of English"/>
+												<p class="places-text">Bilingual Teacher and Media Content Developer/Administrator</p>
+											</div>
+											<div class="col-xs-12 col-md-4">
+												<img class="places-img" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/hitachi.png" alt="Hitachi Information Control Systems Europe" title="Hitachi Information Control Systems Europe"/>
+												<p class="places-text">Data Engineer for HICSE, Hitachi</p>
+											</div>
+										</div>
+										<div class="prof-header">
+											<p class="prof-title">Studies...</p>
+											<p class="title-text">Where i have studied</p>
+										</div>
+										<div class="row">
+											<div class="col-xs-12 col-md-3">
+												<img class="places-img" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/plym.png" alt="The University Of Plymouth" title="The University Of Plymouth"/>
+												<p class="places-text">BA International Business</p>
+											</div>
+											<div class="col-xs-12 col-md-3">
+												<img class="places-img" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/esic.png" alt="La Escuela Oficial de Marketing y Gestión Madrid" title="La Escuela Oficial de Marketing y Gestión Madrid"/>
+												<p class="places-text">BA International Business</p>
+											</div>
+											<div class="col-xs-12 col-md-3">
+												<img class="places-img" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/laguna.png" alt="La Universidad De La Laguna" title="La Universidad De La Laguna"/>
+												<p class="places-text">Dinamizadores De La Innovación</p>
+											</div>
+											<div class="col-xs-12 col-md-3">
+												<img class="places-img" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/gold.png" alt="Goldsmiths University Of London" title="Goldsmiths University Of London"/>
+												<p class="places-text">Responsive Website Development and Design</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+				 		</div>
+
+				 		<!-- Examples: Utilizes handlebars templates -->
+
+				 		<div hidden id="toggle-3" class="toggle">
+				 			<script id="photos-template" type="text/x-handlebars-template">
+								<div class="container content-container">
+									<div class="examples">Examples of my work</div>
+
+									<div class="allow-div">					
+										<div class="about-me-div">
+											<p class="about-text container">The following are examples of my work. The programs utilized are indicated within each section.<br><span class="cv-word-stress">Feel free to download my CV above, a link to my Github account can also be found in the left panel</span></p>
+										</div>
+									</div>
+
+									<div class="examples-middle">
+
+										<div class="row photos-row">
+											<div class="images-div container">
+												<h1 class="images-title">Images:</h1><br>
+													<span><img class="programs" src="images/photoshop.png" alt="photoshop" title="Adobe Photoshop"/><p class="program-text">(Adobe Photoshop)</p></span>
+													<span><img class="programs" src="images/illustrator.png" alt="illustrator" title="Adobe Illustrator"/><p class="program-text">(Adobe Illustrator)</p></span>
+											</div>
+											{{#each photos}}
+											<div class="col-xs-6 col-md-1 photo-thumbnail-div container">
+												<div class="thumbnail">
+													<a id="mini-image" data-toggle="modal" href="#photo-modal" data-keyboard="true">
+														<img class="crop-img" src="{{src}}" alt="{{alt}}" title="{{title}}" data-id="{{@index}}"/>
+													</a>
+													<h4 class="photo-title">{{title}}</h4>
+												</div>  
+											</div> <!-- / col -->
+											{{/each}}
+										</div> <!-- / row -->
+
+										<div class="row videos-row">
+											<div class="video-div container">
+												<h1 class="videos-title">Videos:</h1><br>
+													<span><img class="programs" src="images/effects.png" alt="after effects" title="Adobe After Effects"/><p class="program-text">(Adobe After Effects)</p></span>
+													<span><img class="programs" src="images/vegas.png" alt="sony vegas" title="Sony Vegas"/><p class="program-text">(Sony Vegas)</p></span>
+											</div>
+											<div class="col-xs-12 col-md-6 video-thumbnail-div">
+													<div class="video-thumbnail">
+														<a id="mini-image" data-toggle="modal" href="#video-modal1" data-keyboard="true">
+															<img class="video-image" src="images/Orla2012.png" alt="Composition 2012" title="Composition 2012"/>
+														</a>    
+														<h4 class="video-title">Composition 2012</h4>
+													</div>  
+											</div> <!-- / col -->
+											<div class="col-xs-12 col-md-6 video-thumbnail-div">
+													<div class="video-thumbnail">
+														<a id="mini-image" data-toggle="modal" href="#video-modal2" data-keyboard="true">
+															<img class="video-image" src="images/Orla2013.png" alt="Composition 2013" title="Composition 2013"/>
+														</a>    
+														<h4 class="video-title">Composition 2013</h4>
+													</div>  
+											</div> <!-- / col -->
+										</div>
+									</div>
+								</div>
+							</script>
+				 		</div>
+
+				 		<!-- Goals -->
+
+				 		<div hidden id="toggle-4" class="toggle">
+							<div class="container content-container">
+								<div class="examples">My goals</div>
+								<div class="goals-div">					
+									<div class="about-me-div">
+										<p class="about-text container">The following represent my mid-term objectives on three  very important levels: Professional, Personal and Friends and Family.</p>
+									</div>
+									<div class="quote">
+										<p class="quotation">Death is so certain of his victory that he gives us a life's head start</p>
+									</div>
+									<div>
+										<p class="instructions">Hover over the segments for more info</p>
+									</div>
+								</div>
+								<div class="professional-container">
+									<div class="prof-header">
+										<p class="title-text"></p>
+										<p class="prof-title">Professional...</p>										
+									</div>
+									<div class="professional-text">
+										<a class="goals-text employment" href="javascript://">Work</a>
+										  
+										<div hidden class="professional-content">
+											<div>
+												<p class="popover-header"><strong>On one hand:</strong></p><img class="popover-image" src="./images/hand2.png"/>
+											</div>
+											<div>
+												<p class="goals-popover-content">My first objective is to form an important part of a professional team, dedicated to online services and web development in the Canary Islands.</p>
+											</div>
+											<div>
+												<p class="popover-header2"><strong>On the other:</strong></p><img class="popover-image" src="./images/hand.png"/>
+											</div>
+											<div>
+												<p class="goals-popover-content">Failing this, i would like to see myself embark on a solo project within the industry.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="personal-container">
+									<div class="prof-header">
+										<p class="title-text"></p>
+										<p class="prof-title">Personal...</p>										
+									</div>
+									<div class="personal-text">
+										<a class="goals-text personal" href="javascript://">Leisure</a>
+
+										<div hidden class="personal-content">
+											<div>
+												<p class="popover-header"><strong>The thrill of new experiences:</strong></p>
+											</div>
+											<div>
+												<p class="goals-popover-content">Assuring personal economic stability will allow me to comfortably invest in what excites me the most...adventure sports, healthy living and most importantly <strong>travelling</strong>; visiting breathtaking locations in excellent company.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="home-container">
+									<div class="prof-header">
+										<p class="title-text"></p>
+										<p class="prof-title">Friends and Family...</p>										
+									</div>
+									<div class="home-text">
+										<a class="goals-text home" href="javascript://">Home</a>
+
+										<div hidden class="home-content">
+											<div>
+												<p class="popover-header"><strong>Strike a balance:</strong></p>
+											</div>
+											<div>
+												<p class="goals-popover-content">Friends and family are, in my case, what you could describe as disperse. Each and every member is extremely valuable to me and up until now, I have often found that life is a trade-off between the quest for personal/professional fulfilment, and possessing the means by which to be present for loved ones when necessary. With this in mind, my immediate goal is to ensure professional stability, and strike a much needed <strong>balance</strong> between professional and personal responsibilities.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- CV -->
+
+				 		<div hidden id="toggle-5" class="toggle">
+				 			<div class="cv-es">
+					 			<div class="col-xs-12">
+					 				<p class="cv-text">ES</p>
+					 				<a href="download/CV Ben Shewring ES.pdf" download="Ben Shewring CV ES"><img class="CV" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/CV_Ben_Shewring_ES.jpg" alt="Ben Shewring CV" title="Ben Shewring CV ES"/></a>
+					 			</div>
+					 		</div>
+					 		<div class="cv-en">
+					 			<div class="col-xs-12">
+					 				<p class="cv-text">EN</p>
+					 				<a href="download/CV Ben Shewring EN.pdf" download="Ben Shewring CV EN"><img class="CV" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/CV_Ben_Shewring_EN.jpg" alt="Ben Shewring CV" title="Ben Shewring CV EN"/></a>
+					 			</div>
+					 		</div>
+				 		</div>
+				 	</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="photo-modal-template-container">
+			<script id="photos-modal" type="text/x-handlebars-template">
+				<!-- Modal -->
+				<div id="photo-modal" class="modal fade" role="dialog"">
+					<div class="modal-dialog">
+
+						<!-- Modal content-->
+						<div class="modal-content" data-id="{{@index}}">
+								<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">
+								&times;</button>
+								<h2 class="modal-title">{{title}}</h2>
+								</div>
+								<div class="modal-body">
+									<img class="modal-img" src="{{src}}" alt="{{alt}}" title="{{title}}"/>
+								</div>
+								<div class="modal-footer">
+									<p class="modal-desc">{{description_en}}</p>
+								</div>
+						</div>
+					</div>
+			</script>
+		</div>
+
+		<div class="vid-modal-template-container">
+			<!-- Modal -->
+			<div id="video-modal1" class="modal fade" role="dialog"">
+				<div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">
+						&times;</button>
+						<h2 class="modal-title">Composition 2012</h2>
+						</div>
+						<div class="modal-body">
+							<iframe width="100%" height="56.5%" src="https://www.youtube.com/embed/0JDlpgHyo00" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>	
+							</iframe>
+						</div>
+						<div class="modal-footer">
+							<p class="modal-desc">Graduation composition 2012</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="vid-modal-template-container">
+			<div id="video-modal2" class="modal fade" role="dialog"">
+				<div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">
+						&times;</button>
+						<h2 class="modal-title">Composition 2013</h2>
+						</div>
+						<div class="modal-body">
+							<iframe src="https://player.vimeo.com/video/179953942" width="100%" height="56%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						</div>
+						<div class="modal-footer">
+							<p class="modal-desc">Graduation composition 2013</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Spanish template -->
+
+		<div class="wrapper" lang="es" id="spanish">
+
+
+		 	<!-- left page wrapper -->
+
+			<div class="left-wrapper col-md-4 col-xs-12">
+
+				<!-- Photo, name and link popovers -->
+
+				<div class="intro-div">
+					<p class="Ben">Ben</p>
+					<p class="Shewring">Shewring</p>
+					<img class="front" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/front.png" alt="Ben Shewring" title="Ben Shewring"/>
+					<div class="contact col-md-6 col-md-offset-0 col-xs-3 col-xs-offset-1">
+					<div id="envelope" class="col-xs-6 col-md-3">
+						<a class="envelope" href="javascript://"><span class="glyphicon glyphicon-envelope"></span></a>
+
+						
+						<div hidden class="envelope-popover-container">
+						    <p><a href="mailto:b.shewring@gmail.com"><strong>b.shewring@gmail.com</strong></a></p>
+						</div>
+					</div>
+					<div id="es-linkedin" class="icons col-xs-6 col-md-3">
+						<a class="es-linkedin" href="javascript://"><img class="linkedin" src="images/linkedin.png" alt="Linkedin"/></a>
+
+						
+						<div hidden class="es-linkedin-popover-container">
+						    <p><a href="https://uk.linkedin.com/in/ben-shewring" target="_blank"><strong>Cuenta LinkedIn</strong></a></p>
+						</div>
+					</div>
+					<div id="es-git" class="icons col-xs-6 col-md-3">
+						<a class="es-git" href="javascript://"><img class="git" src="images/git.png" alt="Github"/></a>
+
+						
+						<div hidden class="es-git-popover-container">
+						    <p><a href="https://github.com/Ben-SS" target="_blank"><strong>Cuenta Github</strong></a></p>
+						</div>
+					</div>
+					<div id="es-twitter" class="icons col-xs-6 col-md-3">
+						<a class="es-twitter" href="javascript://"><img class="twitter" src="images/twitter.png" alt="Twitter"/></a>
+
+						
+						<div hidden class="es-twitter-popover-container">
+						    <p><a href="https://twitter.com/BShewring" target="_blank"><strong>Cuenta Twitter</strong></a></p>
+						</div>
+					</div>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- Right page wrapper -->
+
+			<div class="right-wrapper col-md-8 col-xs-12">
+				<!-- Navbar -->
+
+				<div id="yo-nav" class="container">
+
+					<nav id="nav-derecho" class="navbar navbar-default">
+						<ul class="nav navbar-nav">
+				 			<li>
+				 				<a id="boton-1" class="active" href="#">Sobre mí</a>
+				 			</li>
+				 		</ul>
+				 		<ul class="nav navbar-nav">
+							<li>  					
+				 				<a id="boton-2" href="#">Lugares</a>
+				 			</li>
+				 		</ul>
+				 		<ul class="nav navbar-nav">
+				 			<li>
+				 				<a id="boton-3" href="#">Ejemplos</a>
+				 			</li>
+				 		</ul>
+				 		<ul class="nav navbar-nav">
+							<li>  					
+				 				<a id="boton-4" href="#">Objetivos</a>
+				 			</li>
+				 		</ul>
+				 		<ul class="nav navbar-nav">
+				 			<li>
+				 				<a id="boton-5" href="#">Descargar CV</a>
+				 			</li>
+				 		</ul>
+			 		</nav>
+
+			 	</div>
+		
+				<div class="content-div">
+					<div class="row toggle-row">
+
+						<!-- About me -->
+
+				 		<div id="palanca-1" class="toggle">
+							<div class="container content-container">
+								<div class="examples">Sobre mí</div>
+
+								<div class="allow-div">
+									<h1 class="about-title">Permitame apenas presentarme...</h1>									
+									<div class="about-me-div">
+										<p class="about-text container">Nacido y criado en el suroeste de inglaterra, soy <strong>bilingüe, licenciado en International Business</strong> y vivo en Tenerife. Al nunca haber tenido miedo a desafiarme profesionalmente, tengo amplia experiencia y ahora busco acomodarme en el campo de <strong>desarrollo web</strong>. Trabajo duro y me considero un <strong>miembro fuerte de cualquier equipo</strong>.<br><span class="cv-word-stress">Mi currículo se encuentra an el menú principal</span></p>
+									</div>
+
+								</div>
+
+								<div class="about-me-middle">
+							
+									<div class="prof-container col-xs-12 col-md-6">
+										<div class="prof-header">
+											<p class="prof-title">El saber hacer técnico...</p>
+											<p class="title-text">Mi caja de instrumentos</p>
+										</div>
+										<div class="prof-skills">
+											<div class="cirlce-div1 type1">
+												<p class="circle-text1">Desarrollo<br>Web</p>
+												<div class="meteor-div">
+												<img class="meteor" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/meteor.png" alt="meteor" title="Meteor"/>
+												</div>
+												<div class="html5-div">
+													<img class="skills" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/html5.png" alt="html5" title="HTML5"/>
+												</div>
+												<div class="javascript-div">
+													<img class="javascript" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/javascript.png" alt="javascript" title="JavaScript"/>
+												</div>
+												<div class="jquery-div">
+													<img class="skills" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/jquery.png" alt="jquery" title="JQuery"/>
+												</div>
+												<div class="mongodb-div">
+													<img class="mongo" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/mongodb.png" alt="mongodb" title="MongoDB"/>
+												</div>
+												<div class="css-div">
+													<img class="skills" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/css.png" alt="css" title="CSS"/>
+												</div>
+											</div>
+											<div class="cirlce-div2 type2">
+												<p class="circle-text2">Diseño<br>Gráfico/<br>Mediático</p>
+												<div class="photoshop-div">
+												<img class="javascript" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/photoshop.png" alt="photoshop" title="Abobe Photoshop"/>
+												</div>
+												<div class="illustrator-div">
+													<img class="javascript" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/illustrator.png" alt="illustrator" title="Abobe Illustrator"/>
+												</div>
+												<div class="effects-div">
+													<img class="javascript" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/effects.png" alt="effects" title="Abobe After Effects"/>
+												</div>
+												<div class="vegas-div">
+													<img class="javascript" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/vegas.png" alt="vegas" title="Sony Vegas Pro"/>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="pers-container col-xs-12 col-md-6">
+										<div class="pers-header">
+											<p class="prof-title">Otras habilidades...</p>
+											<p class="title-text">¿Qué más sé hacer?</p>
+										</div>
+										<div class="pers-skills">
+											<p><span class="pers-text-title"><strong>Enseñar:</strong></span><span class="pers-text">5+ años enseñando informática e inglés.</span></p>
+										</div>
+										<div class="pers-skills">
+											<p><span class="pers-text-title"><strong>Idiomas:</strong></span><span class="pers-text">Soy bilingüe en inglés/español.</span></p>
+										</div>
+										<div class="pers-skills">
+											<p><span class="pers-text-title"><strong>Innovar:</strong></span><span class="pers-text">Experiencia como dinamizador de la innovación.</span></p>
+										</div>
+										<div class="pers-skills">
+											<p><span class="pers-text-title"><strong>Crear:</strong></span><span class="pers-text">Experiencia en el desarrollo de contenido mediático.</span></p>
+										</div>
+									</div>
+
+									<div class="pers-container2 col-xs-12 col-md-6">
+										<div class="pers-header">
+											<p class="prof-title">Resumen personal...</p>
+											<p class="title-text">Cómo me describo</p>
+											<div class="friends">
+												<div class="pers-text-title-div">				
+													<p><span class="pers-text-title"><strong>Para mis amigos...</strong></span></p>
+												</div>
+												<div class="pers-text-div">
+													<p class="pers-text"><strong>Fiable</strong>, <strong>Divertido</strong> y a veces</span> <strong>refrescantemente espontáneo</strong>.</p>
+												</div>
+											</div>
+											<div class="colleagues">
+												<div class="pers-text-title-div">	
+													<p class="pers-text-title"><strong>Para mis compañeros...</strong></p>
+												</div>
+												<div class="pers-text-div">
+													<p class="pers-text"><strong>Adaptable</strong>, <strong>Comprometido</strong> dispuesto a probar cosas</span> <strong>nuevas</strong>.</span></p>
+												</div>
+											</div>
+										</div>
+									</div>
+								
+								</div>
+							</div>
+						</div>
+
+						<!-- Places -->
+
+				 		<div hidden id="palanca-2" class="toggle">	
+							<div class="container content-container">
+								<div class="examples">Lugares</div>
+
+								<div class="allow-div">					
+									<div class="about-me-div">
+										<p class="about-text container">Las siguientes compañías e instituciones han sido claves en mi desarrollo profesional hasta la fecha.<br><span class="cv-word-stress">Mi currículo se encuentra an el menú principal</span></p>
+									</div>
+								</div>
+
+								<div class="places-middle">
+
+									<div class="places-container">
+										<div class="prof-header">
+											<p class="prof-title">Empleo...</p>
+											<p class="title-text">Para quién he trabajado</p>
+										</div>
+										<div class="places-row row">
+											<div class="col-xs-12 col-md-4">
+												<img class="places-img" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/nivaria.png" alt="Nivaria Innova SL" title="Nivaria Innova SL"/>
+												<p class="places-text">Online Marketing Junior</p>
+											</div>
+											<div class="col-xs-12 col-md-4">
+												<img class="places-img" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/mayco.png" alt="Mayco School Of English" title="Mayco School Of English"/>
+												<p class="places-text">Profesor bilingüe y desarrollador de contenidos mediáticos</p>
+											</div>
+											<div class="col-xs-12 col-md-4">
+												<img class="places-img" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/hitachi.png" alt="Hitachi Information Control Systems Europe" title="Hitachi Information Control Systems Europe"/>
+												<p class="places-text">Ingeniero de datos para HICSE, Hitachi</p>
+											</div>
+										</div>
+										<div class="prof-header">
+											<p class="prof-title">Estudios...</p>
+											<p class="title-text">Dónde he estudiado</p>
+										</div>
+										<div class="row">
+											<div class="col-xs-12 col-md-3">
+												<img class="places-img" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/plym.png" alt="The University Of Plymouth" title="The University Of Plymouth"/>
+												<p class="places-text">BA International Business</p>
+											</div>
+											<div class="col-xs-12 col-md-3">
+												<img class="places-img" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/esic.png" alt="La Escuela Oficial de Marketing y Gestión Madrid" title="La Escuela Oficial de Marketing y Gestión Madrid"/>
+												<p class="places-text">BA International Business</p>
+											</div>
+											<div class="col-xs-12 col-md-3">
+												<img class="places-img" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/laguna.png" alt="La Universidad De La Laguna" title="La Universidad De La Laguna"/>
+												<p class="places-text">Dinamizadores De La Innovación</p>
+											</div>
+											<div class="col-xs-12 col-md-3">
+												<img class="places-img" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/gold.png" alt="Goldsmiths University Of London" title="Goldsmiths University Of London"/>
+												<p class="places-text">Diseño y desarrollo de sitios web adaptativos</p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+				 		</div>
+
+				 		<!-- Examples: Utilizes handlebars templates -->
+
+				 		<div hidden id="palanca-3" class="toggle">
+				 			<script id="fotos-template" type="text/x-handlebars-template">
+								<div class="container content-container">
+									<div class="examples">Ejemplos de mi trabajo</div>
+
+									<div class="allow-div">					
+										<div class="about-me-div">
+											<p class="about-text container">Lo siguiente son ejemplos de mi trabajo. Los programas utilizados están indicados dentro de cada sección.<br><span class="cv-word-stress">Mi currículo se encuentra en el menú principal y el acceso a mi cuenta Github en el panel izquierdo</span></p>
+										</div>
+									</div>
+
+									<div class="row photos-row">
+										<div class="images-div container">
+											<h1 class="images-title">Imágenes:</h1><br>
+												<span><img class="programs" src="images/photoshop.png" alt="photoshop" title="Adobe Photoshop"/><p class="program-text">(Adobe Photoshop)</p></span>
+												<span><img class="programs" src="images/illustrator.png" alt="illustrator" title="Adobe Illustrator"/><p class="program-text">(Adobe Illustrator)</p></span>
+										</div>
+										{{#each photos}}
+										<div class="col-xs-6 col-md-1 photo-thumbnail-div container">
+											<div class="thumbnail">
+												<a id="mini-image" data-toggle="modal" href="#foto-modal" data-keyboard="true">
+													<img class="crop-img" src="{{src}}" alt="{{alt}}" title="{{title_es}}" data-id="{{@index}}"/>
+												</a>
+												<h4 class="photo-title">{{title_es}}</h4>
+											</div>  
+										</div> <!-- / col -->
+										{{/each}}
+									</div> <!-- / row -->
+
+									<div class="row videos-row">
+										<div class="video-div container">
+											<h1 class="videos-title">Videos:</h1><br>
+												<span><img class="programs" src="images/effects.png" alt="after effects" title="Adobe After Effects"/><p class="program-text">(Adobe After Effects)</p></span>
+												<span><img class="programs" src="images/vegas.png" alt="sony vegas" title="Sony Vegas"/><p class="program-text">(Sony Vegas)</p></span>
+										</div>
+										<div class="col-xs-12 col-md-6 video-thumbnail-div">
+												<div class="video-thumbnail">
+													<a id="mini-image"data-toggle="modal" href="#vid-modal1" data-keyboard="true">
+														<img class="video-image" src="images/Orla2012.png" alt="Composición 2012" title="Composición 2012"/>
+													</a>    
+													<h4 class="video-title">Composición 2012</h4>
+												</div>  
+										</div>
+										<div class="col-xs-12 col-md-6 video-thumbnail-div">
+												<div class="video-thumbnail">
+													<a id="mini-image"data-toggle="modal" href="#vid-modal2" data-keyboard="true">
+														<img class="video-image" src="images/Orla2013.png" alt="Composición 2013" title="Composición 2013"/>
+													</a>    
+													<h4 class="video-title">Composición 2013</h4>
+												</div>  
+										</div>
+									</div>
+								</div>
+							</script>
+				 		</div>
+
+				 		<!-- Goals -->
+
+				 		<div hidden id="palanca-4" class="toggle">
+							<div class="container content-container">
+								<div class="examples">Mis metas</div>
+								<div class="goals-div">					
+									<div class="about-me-div">
+										<p class="about-text container">Lo que muestro a continuación representa mis objetivos a medio plazo en tres niveles muy importantes: Profesional, Personal y Familia y amigos.</p>
+									</div>
+									<div class="quote">
+										<p class="quotation">La muerte está tan segura de su victoria que nos da toda una vida de ventaja</p>
+									</div>
+									<div>
+										<p class="instructions">Mantén el puntero sobre los segmentos para ver el contenido</p>
+									</div>
+								</div>
+					
+									<div class="professional-container">
+										<div class="prof-header">
+											<p class="title-text"></p>
+											<p class="prof-title">Profesional...</p>
+										</div>
+										<div class="professional-text">
+											<a class="goals-text es-employment" href="javascript://">Empleo</a>
+											  
+											<div hidden class="es-professional-content">
+												<div>
+													<p class="popover-header"><strong>Por un lado:</strong></p><img class="popover-image" src="./images/hand2.png"/>
+												</div>
+												<div>
+													<p class="goals-popover-content">Mi primer objetivo es de formar una parte importante de un equipo profesional en las islas Canarias, dedicado al sector de servicios online y desarrollo web.</p>
+												</div>
+												<div>
+													<p class="popover-header2"><strong>Por otro:</strong></p><img class="popover-image" src="./images/hand.png"/>
+												</div>
+												<div>
+													<p class="goals-popover-content">Alternativamente, me gustaría verme embarcar en un proyecto independiente dentro de la industria.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								<div class="personal-container">
+									<div class="prof-header">
+										<p class="title-text"></p>
+										<p class="prof-title">Personal...</p>				
+									</div>
+									<div class="personal-text">
+										<a class="goals-text es-personal" href="javascript://">Ocio</a>
+
+										<div hidden class="es-personal-content">
+											<div>
+												<p class="popover-header"><strong>La emoción de nuevas experiencias:</strong></p>
+											</div>
+											<div>
+												<p class="goals-popover-content">La estabilidad personal y profesional me permitirá comodidad a la hora de invertir en lo que más me motiva: deportes de aventura, vida sana y lo más importante; <strong>viajar</strong> y conocer lugares increíbles en excelente compañía.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="home-container">
+									<div class="prof-header">
+										<p class="title-text"></p>
+										<p class="prof-title">Familia y amigos...</p>										
+									</div>
+									<div class="home-text">
+										<a class="goals-text es-home" href="javascript://">Familia</a>
+
+										<div hidden class="es-home-content">
+											<div>
+												<p class="popover-header"><strong>Buscar el equilibrio:</strong></p>
+											</div>
+											<div>
+												<p class="goals-popover-content">En mi caso, mis seres queridos se encuentran repartidos por todo el mundo. En muchas ocasiones, estar presente para ellos se ha visto complicado al no disponer de las ventajas que te puede aportar una profesión estable. Con esto en mente, mi objetivo inmediato es de lograr dicha estabilidad profesional y asegurar un <strong>equilibrio</strong> necesario entre mis responsabilidades profesionales y personales.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- CV -->
+
+				 		<div hidden id="palanca-5" class="toggle">
+				 			<div class="cv-es">
+					 			<div class="col-xs-12">
+					 				<p class="cv-text">ES</p>
+					 				<a href="download/CV Ben Shewring ES.pdf" download="Ben Shewring CV ES"><img class="CV" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/CV_Ben_Shewring_ES.jpg" alt="Ben Shewring CV" title="Ben Shewring CV ES"/></a>
+					 			</div>
+					 		</div>
+					 		<div class="cv-en">
+					 			<div class="col-xs-12">
+					 				<p class="cv-text">EN</p>
+					 				<a href="download/CV Ben Shewring EN.pdf" download="Ben Shewring CV EN"><img class="CV" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" datasrc="images/CV_Ben_Shewring_EN.jpg" alt="Ben Shewring CV" title="Ben Shewring CV EN"/></a>
+					 			</div>
+					 		</div>
+				 		</div>
+				 	</div>
+				</div>
+			</div>
+		</div>
+
+		<div lang="es" class="foto-modal-template-container">
+			<script id="fotos-modal" type="text/x-handlebars-template">
+				<!-- Modal -->
+				<div id="foto-modal" class="modal fade" role="dialog"">
+					<div class="modal-dialog">
+
+						<!-- Modal content-->
+						<div class="modal-content" data-id="{{@index}}">
+								<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">
+								&times;</button>
+								<h2 class="modal-title">{{title_es}}</h2>
+								</div>
+								<div class="modal-body">
+									<img class="modal-img" src="{{src}}" alt="{{alt}}" title="{{title_es}}"/>
+								</div>
+								<div class="modal-footer">
+									<p class="modal-desc">{{description_es}}</p>
+								</div>
+						</div>
+					</div>
+			</script>
+		</div>
+
+		<div lang="es" class="vid-modal-template-container">
+			<!-- Modal -->
+			<div id="vid-modal1" class="modal fade" role="dialog"">
+				<div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">
+						&times;</button>
+						<h2 class="modal-title">Composición 2012</h2>
+						</div>
+						<div class="modal-body">
+							<iframe width="100%" height="56.5%" src="https://www.youtube.com/embed/0JDlpgHyo00" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>	
+							</iframe>
+						</div>
+						<div class="modal-footer">
+							<p class="modal-desc">Composición orla 2012</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div lang="es" class="vid-modal-template-container">
+			<div id="vid-modal2" class="modal fade" role="dialog"">
+				<div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">
+						&times;</button>
+						<h2 class="modal-title">Composición 2013</h2>
+						</div>
+						<div class="modal-body">
+							<iframe src="https://player.vimeo.com/video/179953942" width="100%" height="56%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						</div>
+						<div class="modal-footer">
+							<p class="modal-desc">Composición orla 2013</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>
